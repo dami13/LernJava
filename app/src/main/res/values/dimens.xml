@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_linear_layout_height">100dp</dimen>
+    <dimen name="item_in_main_list_height">75dp</dimen>
+    <dimen name="item_in_list_height">60dp</dimen>
+</resources>

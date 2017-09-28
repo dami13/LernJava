@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dami.lernjava.MainActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/learn_text_view"
+        android:background="#00c853"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="Learn" />
+
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/questions_and_answers_text_view"
+        android:background="#ff8800"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="Q&amp;A" />
+
+    <TextView
+        android:id="@+id/example_programs_text_view"
+        style="@style/CategoryStyle"
+        android:background="#3e2723"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Example Programs" />
+
+    <TextView
+        android:id="@+id/test_text_view"
+        style="@style/CategoryStyle"
+        android:background="#b71c1c"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="TEST" />
+
+</LinearLayout>
